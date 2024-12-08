@@ -9,7 +9,7 @@ export function LoginForm({}) {
         <Form method="post">
           <Input htmlfor="name"> Name </Input>
           <Input htmlfor="email"> Email </Input>
-          <Input htmlfor="password"> Password </Input>
+          <Input htmlfor="password" className="mb-32"> Password </Input>
           <SubButton />
         </Form>
       </div>
